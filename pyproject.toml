@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "grpc-image-server"
+version = "0.1.0"
+description = ""
+authors = ["daggy1234"]
+readme = "README.md"
+packages = [{include = "grpc_image_server"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+grpcio = "^1.56.2"
+grpcio-tools = "^1.56.2"
+pillow = "^10.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
